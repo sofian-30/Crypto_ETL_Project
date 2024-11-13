@@ -1,0 +1,9 @@
+# Ignorer les dossiers et fichiers de l'environnement virtuel
+venv/
+__pycache__/
+
+# Ignorer les fichiers spécifiques de VSCode
+.vscode/
+
+# Ignorer les fichiers de configuration ou sensibles
+.env
