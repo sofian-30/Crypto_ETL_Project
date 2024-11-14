@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Mise à jour vers la version 3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3  # Mise à jour vers la version 3
         with:
           python-version: '3.8'
 
@@ -29,3 +29,4 @@ jobs:
       - name: Run unit tests
         run: |
           python -m unittest discover -s tests
+
